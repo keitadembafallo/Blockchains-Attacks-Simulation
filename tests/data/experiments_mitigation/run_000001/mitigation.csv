@@ -1,0 +1,2 @@
+attack,target,score,severity,tick,action,outcome,applied,adoption_blocked
+51% / double spending,Alice,100,CRITIQUE,30,Confirmations renforcees et reorganisation rejetee,La branche publique est conservee ; paiement marchand protege.,1,1

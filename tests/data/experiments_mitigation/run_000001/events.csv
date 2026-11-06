@@ -1,0 +1,5 @@
+mode,tick,type,node,branch,height,delay_ticks,amount,detail
+NORMAL,1,BLOC_HONNET,,,0,1,0,Production honnete de reference.
+NORMAL,2,BLOC_HONNET,,,0,1,0,Production honnete de reference.
+ATTAQUE,1,51% / double spending,,,0,1,0,Tour 1 : bloc prive retenu par Alice.
+ATTAQUE,2,51% / double spending,,,0,1,0,Tour 2 : bloc prive retenu par Alice.

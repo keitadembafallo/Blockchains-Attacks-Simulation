@@ -1,0 +1,5 @@
+mode,node,rewards,hash_power,stake
+NORMAL,Alice,30,70,70
+NORMAL,Bob,0,30,30
+ATTAQUE,Alice,0,70,70
+ATTAQUE,Bob,0,30,30

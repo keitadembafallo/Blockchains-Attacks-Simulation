@@ -1,0 +1,9 @@
+seed,nodes,delay,attack,method,positive,detection_tick,warmed_up
+7,3,1,51% / double spending,FIXE,1,20,0
+7,3,1,51% / double spending,ADAPTATIF,1,20,0
+7,3,1,Selfish mining,FIXE,0,0,0
+7,3,1,Selfish mining,ADAPTATIF,0,0,0
+7,3,1,Block withholding,FIXE,1,20,0
+7,3,1,Block withholding,ADAPTATIF,1,20,0
+7,3,1,Sybil P2P,FIXE,1,20,0
+7,3,1,Sybil P2P,ADAPTATIF,1,20,0

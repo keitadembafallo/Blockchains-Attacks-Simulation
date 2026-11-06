@@ -1,0 +1,2 @@
+attack,target,score,severity,tick,action,outcome,applied,adoption_blocked
+Sybil P2P,Bob,90,CRITIQUE,3,Connexions Sybil excedentaires refusees,Des voisins honnetes restaurent la diffusion vers la victime.,1,1

@@ -1,0 +1,3 @@
+attack,suspect,score,severity,reason
+51% / DOUBLE_DEPENSE,demba,100,CRITIQUE,Double depense, reorganisation et blocs orphelins observes.
+REORGANISATION,GLOBAL,60,ELEVE,Reorganisation et taux d'orphelins anormal.

@@ -1,0 +1,9 @@
+mode,node,rewards,hash_power,stake
+NORMAL,demba,11,100,100
+NORMAL,joris,11,34,10
+NORMAL,momo,0,10,40
+NORMAL,oumar,0,10,0
+ATTAQUE,demba,33,100,100
+ATTAQUE,joris,0,34,10
+ATTAQUE,momo,0,10,40
+ATTAQUE,oumar,0,10,0

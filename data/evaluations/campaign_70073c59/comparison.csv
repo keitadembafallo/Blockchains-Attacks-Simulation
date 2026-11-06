@@ -1,0 +1,5 @@
+attack,attack_loss_mean,protected_loss_mean,loss_reduction,attack_delay_mean,protected_delay_mean
+51% double spending,10.000000,0.000000,10.000000,2.000000,2.000000
+Selfish mining,3.333333,3.333333,0.000000,2.000000,2.000000
+Block withholding,63.333333,-9.222222,72.555556,2.000000,2.000000
+Sybil P2P,10.000000,0.000000,10.000000,3.000000,2.000000
