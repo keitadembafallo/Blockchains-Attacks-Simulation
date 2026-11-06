@@ -157,15 +157,22 @@ Les nœuds doivent posséder une puissance totale strictement positive en PoW, o
 
 Les graphiques SVG et les fichiers de campagne sont enregistrés dans `data/evaluations/campaign_<empreinte>/`. Les ticks, le travail PoW logique et les résultats CSV sont déterministes pour une même configuration ; le temps CPU reste indicatif et dépend de la machine.
 
-## Tests
+## Tests vérifiables
 
-La commande suivante compile le programme, le test du moteur et vérifie aussi les erreurs CLI attendues :
+Le dossier `tests/` ne contient que les éléments utiles pour relancer les vérifications :
+
+- `run_tests.cmd` : commande recommandée sous Windows ;
+- `run_tests.ps1` : variante PowerShell ;
+- `test_engine.c` : scénarios de test du moteur, consultables et modifiables ;
+- `menu_scenario.txt` : exemple d'entrée automatisée pour le menu interactif.
+
+Avant une démonstration ou après une modification, lancer :
 
 ```powershell
 .\tests\run_tests.cmd
 ```
 
-Les tests couvrent SHA-256, les chaînes honnêtes PoW/PoS, les transactions invalides, l'intégrité (transaction, parent, nonce et producteur), les scénarios d'attaque et le scénario interactif.
+Le script recompile des exécutables de test, vérifie SHA-256, PoW/PoS, transactions, stake bloqué, intégrité, persistance, attaques, détection, mitigation, campagne et scénario menu. Les exécutables et CSV éventuels créés par le test sont des artefacts temporaires : ils ne font pas partie des livrables ni des données expérimentales à analyser. Utilisez `data/evaluations/` et `data/experiments/` pour vos expériences réelles.
 
 ## Limites de cette itération
 

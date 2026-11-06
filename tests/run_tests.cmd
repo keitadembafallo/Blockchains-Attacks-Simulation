@@ -2,6 +2,7 @@
 setlocal
 cd /d "%~dp0\.."
 set "GCC=C:\msys64\mingw64\bin\gcc.exe"
+rmdir /s /q "tests\_generated" >nul 2>&1
 
 "%GCC%" -std=c11 -Wall -Wextra -Wpedantic -Werror -O2 -Iinclude src\sha256.c src\blockchain.c src\accounts_store.c src\session_store.c src\metrics.c src\detection.c src\mitigation.c src\evaluation.c src\analysis.c src\attack.c src\attack_51.c src\attack_selfish.c src\attack_withholding.c src\attack_sybil.c src\menu.c src\main.c -o tests\atelier2_test.exe -lm
 if errorlevel 1 goto :fail
@@ -45,6 +46,9 @@ if errorlevel 1 goto :menu_failed
 findstr /C:"Mises a jour de ressources appliquees" "%TEMP%\atelier2_menu_output.txt" >nul
 if errorlevel 1 goto :menu_failed
 
+rmdir /s /q "tests\_generated" >nul 2>&1
+rmdir /s /q "tests\data" >nul 2>&1
+del /q "tests\atelier2_test.exe" "tests\test_engine.exe" >nul 2>&1
 echo Tests CLI invalides : OK
 echo Scenario menu : OK
 exit /b 0

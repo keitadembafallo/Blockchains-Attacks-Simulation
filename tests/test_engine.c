@@ -567,7 +567,7 @@ static bool test_evaluation_campaign(void) {
     config.delay_count = 1;
     config.node_counts[0] = 3;
     config.delays[0] = 1;
-    config.output_directory = "tests\\evaluation_test";
+    config.output_directory = "tests\\_generated";
     CHECK(evaluation_run_campaign(&config, &report));
     CHECK(report.run_count == 4);
     CHECK(report.output_path[0] != '\0');

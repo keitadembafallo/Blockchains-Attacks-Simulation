@@ -1,3 +1,0 @@
-attack,suspect,score,severity,reason
-SYBIL,Bob,90,CRITIQUE,Voisins Sybil satures et propagation retardee.
-PROPAGATION,GLOBAL,30,FAIBLE,Delai de propagation superieur a la reference.

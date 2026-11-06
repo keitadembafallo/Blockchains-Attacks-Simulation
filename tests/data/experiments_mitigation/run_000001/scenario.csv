@@ -1,2 +1,0 @@
-run_id,attack,consensus,seed,rounds,success,mitigation_applied,adoption_blocked
-run_000001,51% / double spending,PoW,7,30,1,1,1

@@ -1,4 +1,0 @@
-mode,blocks,public,private,withheld,orphaned,orphan_rate,avg_delay,max_delay,reorg,invalid,double_spend,sybils,rewards,attacker_rewards
-NORMAL,3,3,0,0,0,0.000000,1.000000,1.000000,0,0,0,0,30,0
-ATTAQUE,0,0,0,0,0,0.000000,2.000000,2.000000,0,0,0,3,0,0
-PROTEGE,3,3,0,0,0,0.000000,1.000000,1.000000,0,0,0,0,30,0

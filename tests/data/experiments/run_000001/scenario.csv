@@ -1,2 +1,0 @@
-run_id,attack,consensus,seed,rounds,success,mitigation_applied,adoption_blocked
-run_000001,Sybil P2P,PoW,2,3,1,1,1

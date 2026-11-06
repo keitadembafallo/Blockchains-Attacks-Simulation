@@ -1,7 +1,0 @@
-mode,tick,type,node,branch,height,delay_ticks,amount,detail
-NORMAL,1,BLOC_HONNET,,,0,1,0,Production honnete de reference.
-NORMAL,2,BLOC_HONNET,,,0,1,0,Production honnete de reference.
-NORMAL,3,BLOC_HONNET,,,0,1,0,Production honnete de reference.
-ATTAQUE,1,Sybil P2P,,,0,2,0,Tour 1 : annonce honnete retenue par les voisins Sybil.
-ATTAQUE,2,Sybil P2P,,,0,2,0,Tour 2 : annonce honnete retenue par les voisins Sybil.
-ATTAQUE,3,Sybil P2P,,,0,2,0,Tour 3 : annonce honnete retenue par les voisins Sybil.
